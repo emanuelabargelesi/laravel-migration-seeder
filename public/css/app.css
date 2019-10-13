@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.box-cont {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: lightgoldenrodyellow;
+}
+
+.box {
+  display: flex;
+  width: 150px;
+  height: 200px;
+  margin: 20px;
+  background-color: beige;
+  border: 1px solid black;
+}
+
+p {
+  margin: auto;
+  font-size: 16px;
+  text-align: center;
+}
+
